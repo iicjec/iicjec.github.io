@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap');
+
+body{
+    background-image: linear-gradient( #454545, #030304, #020024);
+    background-attachment: fixed;
+    font-family: 'Spectral', serif;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts{
+    color: white;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.cards{
+    background-color: teal;
+    color: white;
+    padding: 10% 5%;
+}
+
