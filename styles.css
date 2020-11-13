@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Aleo:wght@300&display=swap');
 
 body{
     background-image: linear-gradient( #454545, #030304, #020024);
     background-attachment: fixed;
-    font-family: 'Alegreya', serif;
+    
 }
 
 .heading{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: white;
+    color: rgba(236, 228, 228, 0.842);
     font-size: 2rem;
     align-items: center;
     padding: 2% 0;
+    font-family: 'Alegreya', serif;
 }
 
 .container{
-    padding: 1rem;
+    padding: 1rem 2%;
 }
 
 .rows{
@@ -27,7 +27,8 @@ body{
 }
 
 .texts{
-    color: white;
+    color: rgb(228, 228, 228);
+    font-family: 'Aleo', serif;
 }
 
 .card{
@@ -38,8 +39,35 @@ body{
 }
 
 .cards{
-    background-color: teal;
-    color: white;
-    padding: 10% 5%;
+    /* background-image: linear-gradient( 147deg,#b5b5b5, #5656d7,#01182f); */
+    color: rgb(247, 238, 238);
+    width: 47%;
+    height: 4.5rem;
+    border-radius: 5%;
+    position: relative;
 }
 
+.cards-textss{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.card1{
+    background-image: linear-gradient( 324deg,#b5b5b5, #5656d7,#01182f);
+}
+.card2{
+    background-image: linear-gradient( 147deg,#b5b5b5, #5656d7,#01182f);
+}
+.card3{
+    background-image: linear-gradient( 324deg,#b5b5b5, #5656d7,#01182f);
+}
+.card4{
+    background-image: linear-gradient( 147deg,#b5b5b5, #5656d7,#01182f);
+}
+.card5{
+    background-image: linear-gradient( 324deg,#b5b5b5, #5656d7,#01182f);
+}
+.card6{
+    background-image: linear-gradient( 147deg,#b5b5b5, #5656d7,#01182f);
+}
