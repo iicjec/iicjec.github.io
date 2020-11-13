@@ -54,20 +54,20 @@ body{
 }
 
 .card1{
-    background-image: linear-gradient( 324deg,#b5b5b5, #5656d7,#01182f);
+    background-color: #5656d7;
 }
 .card2{
-    background-image: linear-gradient( 147deg,#b5b5b5, #5656d7,#01182f);
+    background-color: #a70202;
 }
 .card3{
-    background-image: linear-gradient( 324deg,#b5b5b5, #5656d7,#01182f);
+    background-color: #18790f;
 }
 .card4{
-    background-image: linear-gradient( 147deg,#b5b5b5, #5656d7,#01182f);
+    background-color: #928615;
 }
 .card5{
-    background-image: linear-gradient( 324deg,#b5b5b5, #5656d7,#01182f);
+    background-color: #7a1a47;
 }
 .card6{
-    background-image: linear-gradient( 147deg,#b5b5b5, #5656d7,#01182f);
+    background-color: #105774;
 }
