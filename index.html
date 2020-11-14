@@ -15,28 +15,52 @@
 
 </head>
 <body>
-    <div class="heading">
-        IIC-JEC EVENTS
-    </div>
-    <div class="container">
-        <div class="rows">
-            <div class="texts">Small Events</div>
-            <div class="card">
-                <div class="cards card1"><div class="cards-textss">Small Events</div></div>
-                <div class="cards card2"><div class="cards-textss">Small Events</div></div>
-            </div>
-            <div class="texts"><div class="texts">Small Events</div></div>
-            <div class="card">
-                <div class="cards card3"><div class="cards-textss">Small Events</div></div>
-                <div class="cards card4"><div class="cards-textss">Small Events</div></div>
-            </div>
-            <div class="texts"><div class="texts">Small Events</div></div>
-            <div class="card">
-                <div class="cards card5"><div class="cards-textss">Small Events</div></div>
-                <div class="cards card6"><div class="cards-textss">Small Events</div></div>
+    <div class="main" id="main" style="display: none;">
+        <div class="heading">
+            IIC-JEC EVENTS
+        </div>
+        <div class="line">
+            <hr class="hori-line">
+        </div>
+        <div class="container">
+            <div class="rows">
+                <div class="texts">Innovation</div>
+                <div class="card">
+                    <div class="cards card1"><div class="cards-textss">Article</div></div>
+                    <div class="cards card2"><div class="cards-textss">Logo</div></div>
+                </div>
+                <div class="card">
+                    <div class="cards card1"><div class="cards-textss">Innovation Talk</div></div>
+                </div>
+                <div class="texts"><div class="texts">Entrepreneurship</div></div>
+                <div class="card">
+                    <div class="cards card3"><div class="cards-textss">Infuencers Contest</div></div>
+                    <div class="cards card4"><div class="cards-textss">Problem Solving</div></div>
+                </div>
+                <div class="card">
+                    <div class="cards card1"><div class="cards-textss">Youth Discussion</div></div>
+                </div>
+                <div class="texts"><div class="texts">Creative Learning</div></div>
+                <div class="card">
+                    <div class="cards card5"><div class="cards-textss">Orientation Session</div></div>
+                    <div class="cards card6"><div class="cards-textss">GEMS of JEC</div></div>
+                </div>
             </div>
         </div>
     </div>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
+        $(window).on('load', function(){
+        setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
+        });
+        function removeLoader(){
+            $( "#loadingDiv" ).fadeOut(500, function() {
+            // fadeOut complete. Remove the loading div
+            $( "#loadingDiv" ).remove(); //makes page more lightweight 
+        });  
+        document.getElementById("main").style.display = "block";
+        }
+      </script>
 </body>
 </html>
