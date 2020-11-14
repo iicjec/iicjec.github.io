@@ -123,7 +123,6 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding: 0!important;
-    margin-top: 0%!important;
 }
 
 li{
@@ -193,9 +192,6 @@ li:hover {
 
 .cards{
     color: rgb(247, 238, 238);
-    width: 47%;
-    height: 5rem;
-    border-radius: 5%;
     position: relative;
 }
 
@@ -231,4 +227,55 @@ li:hover {
 }
 .card8{
     background-color: #ad7b0e;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .cards{
+        height: 5rem;
+        border-radius: 5%;
+        width: 47%;
+    }
+    .sidebar-lists{
+        margin-top: -20%!important;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .sidebar-lists{
+        margin-top: 0%!important;
+    }
+    .cards{
+        height: 6rem;
+        border-radius: 5%;
+        width: 47%;
+    }
+    .texts{
+        font-size: 1.5rem;
+    }
+    .cards-textss{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .sidebar-lists{
+        margin-top: 0%!important;
+    }
+    .cards{
+        height: 5rem;
+        border-radius: 5%;
+        width: 47%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .sidebar-lists{
+        margin-top: 0%!important;
+    }
+    .cards{
+        height: 5rem;
+        border-radius: 5%;
+        width: 47%;
+    }
 }

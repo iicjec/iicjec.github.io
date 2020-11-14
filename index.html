@@ -25,18 +25,18 @@
             <li>About IIC-JEC</li>
             <li class="social-media">
                 <div class="social-media-icons">
-                    <img src="linkedin.png" height="25rem" width="25rem">
+                    <a href="https://www.linkedin.com/company/iic-jec"><img src="linkedin.png" height="25rem" width="25rem"></a>
                 </div>
                 <div class="social-media-icons">
-                    <img src="instagram.png" height="25rem" width="25rem">
+                    <a href="https://instagram.com/jec_iic?igshid=1jx0fyrsa1gej"><img src="instagram.png" height="25rem" width="25rem"></a>
                 </div>
                 <div class="social-media-icons">
-                    <img src="twitter.png" height="25rem" width="25rem">
+                    <a href="https://twitter.com/IIC_JEC?s=08"><img src="twitter.png" height="25rem" width="25rem"></a>
                 </div>
             </li>
         </ul>
     </div>
-    <div class="main" id="main" style="display: none;">
+    <div class="main" id="main" >
         <div class="main-menu">
             <div class="main-menu-bar"><a href="#" class="cus-menu" id="cus-menu"><i onclick="openSideBar()" class="fa fa-bars"></i></a></div>
             <div class="heading">
@@ -89,8 +89,10 @@
         function openSideBar(){
             document.getElementById("sidebar").style.transform = "translateX(0%)";
         }
+
         function closeSideBar(){
             document.getElementById("sidebar").style.transform = "translateX(-200%)";
+            document.getElementById("main").style.display = "block";
         }
       </script>
 </body>
