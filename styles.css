@@ -6,7 +6,6 @@ body{
     padding: 1%;
 }
 
-
 .loader,
 .loader:before,
 .loader:after {
@@ -78,24 +77,6 @@ body{
     background-image: linear-gradient( #454545, #030304, #020024);
 }
 
-.main-menu{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: -o-flex;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    color: white;
-    width: 100%;
-}
-
-.cus-menu i {
-    color: white;
-    font-size: 150%!important;
-}
-
 .sidebar{
     background-image: linear-gradient( #454545, #030304, #020024);
     position: fixed;
@@ -137,6 +118,7 @@ li{
     display: flex;
     justify-content: flex-end;
     margin-right: 20%;
+    color: white!important;
 }
 
 li:hover {
@@ -150,17 +132,34 @@ li:hover {
     width: 100%;
 }
 
-
-
-.heading{
+.nav{
+    padding-left: 2%!important;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-menu{
+    color: rgb(177, 177, 177);
+    font-size: 150%!important;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    color: rgba(236, 228, 228, 0.842);
+}
+
+.nav-menu:hover {
+    color: white;
+}
+
+.nav-heading{
+    color: rgb(175, 174, 174);
     font-size: 2rem;
     align-items: center;
     font-family: 'Alegreya', serif;
-    margin: 2% 0;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .hori-line{
@@ -168,26 +167,11 @@ li:hover {
     margin: 0 1%;
 }
 
-.container{
-    padding: 1rem 2%;
-}
-
-.rows{
-    display: flex;
-    flex-direction: column;
-}
-
 .texts{
     color: rgb(228, 228, 228);
     font-family: 'Aleo', serif;
     font-weight: 200;
-}
-
-.card{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .cards{
@@ -234,48 +218,38 @@ li:hover {
     .cards{
         height: 5rem;
         border-radius: 5%;
-        width: 47%;
     }
-    .sidebar-lists{
-        margin-top: -20%!important;
+    .card3{
+        margin-top: 5%;
+    }
+    .card6{
+        margin-top: 5%;
     }
 }
 
 @media only screen and (max-width: 425px) and (min-width: 376px) {
-    .sidebar-lists{
-        margin-top: 0%!important;
-    }
     .cards{
         height: 6rem;
-        border-radius: 5%;
-        width: 47%;
+        border-radius: 4%;
     }
-    .texts{
-        font-size: 1.5rem;
+    .card3{
+        margin-top: 5%;
     }
-    .cards-textss{
-        font-size: 1.2rem;
+    .card6{
+        margin-top: 5%;
     }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 426px) {
-    .sidebar-lists{
-        margin-top: 0%!important;
-    }
     .cards{
-        height: 5rem;
+        height: 8rem;
         border-radius: 5%;
-        width: 47%;
     }
 }
 
 @media only screen and (min-width: 769px) {
-    .sidebar-lists{
-        margin-top: 0%!important;
-    }
     .cards{
-        height: 5rem;
-        border-radius: 5%;
-        width: 47%;
+        height: 13rem;
+        border-radius: 2%;
     }
 }
