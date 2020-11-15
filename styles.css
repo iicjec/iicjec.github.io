@@ -92,8 +92,7 @@ body{
     justify-content: center;
     align-items: center;
     overflow-y: hidden!important;
-    overflow-x: hidden!important;
-    
+    overflow-x: hidden!important;    
 }
 
 .sidebar-lists{
@@ -119,6 +118,7 @@ li{
     justify-content: flex-end;
     margin-right: 20%;
     color: white!important;
+    font-size: 2rem!important;
 }
 
 li:hover {
@@ -215,6 +215,9 @@ li:hover {
 
 
 @media only screen and (max-width: 375px) {
+    .sidebar-lists{
+        margin-top: -20%!important;
+    }
     .cards{
         height: 5rem;
         border-radius: 5%;
@@ -228,6 +231,9 @@ li:hover {
 }
 
 @media only screen and (max-width: 425px) and (min-width: 376px) {
+    .sidebar-lists{
+        margin-top: -20%!important;
+    }
     .cards{
         height: 6rem;
         border-radius: 4%;
@@ -241,6 +247,9 @@ li:hover {
 }
 
 @media only screen and (max-width: 768px) and (min-width: 426px) {
+    .sidebar-lists{
+        margin-top: 0%!important;
+    }
     .cards{
         height: 8rem;
         border-radius: 5%;
@@ -248,6 +257,9 @@ li:hover {
 }
 
 @media only screen and (min-width: 769px) {
+    .sidebar-lists{
+        margin-top: 0%!important;
+    }
     .cards{
         height: 13rem;
         border-radius: 2%;
