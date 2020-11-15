@@ -228,6 +228,10 @@ li:hover {
     .card6{
         margin-top: 5%;
     }
+    .texts{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
 }
 
 @media only screen and (max-width: 425px) and (min-width: 376px) {
@@ -235,7 +239,7 @@ li:hover {
         margin-top: -20%!important;
     }
     .cards{
-        height: 6rem;
+        height: 7rem;
         border-radius: 4%;
     }
     .card3{
@@ -243,6 +247,10 @@ li:hover {
     }
     .card6{
         margin-top: 5%;
+    }
+    .texts{
+        margin-top: 5%;
+        margin-bottom: 2%;
     }
 }
 
@@ -254,14 +262,36 @@ li:hover {
         height: 8rem;
         border-radius: 5%;
     }
+    .texts{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
 }
 
 @media only screen and (min-width: 769px) {
+    .nav-menu{
+        padding-left: 6%;
+        font-size: 2rem!important;
+    }
+    .nav-heading{
+        padding-right: 6%;
+    }
+    .hori-line{
+        margin: 0% 7%;
+    }
     .sidebar-lists{
         margin-top: 0%!important;
     }
     .cards{
         height: 13rem;
         border-radius: 2%;
+    }
+    .texts{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .cards-textss{
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif!important;
     }
 }
