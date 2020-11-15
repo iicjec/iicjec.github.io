@@ -169,7 +169,7 @@ li:hover {
 
 .texts{
     color: rgb(228, 228, 228);
-    font-family: 'Aleo', serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.5rem;
 }
@@ -185,7 +185,7 @@ li:hover {
     left: 5%;
     margin-right: 5%;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
 }
 
 .card1{
