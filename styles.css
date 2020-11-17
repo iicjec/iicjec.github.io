@@ -237,7 +237,7 @@ li:hover {
 
 @media only screen and (max-width: 375px) {
     .sidebar-lists{
-        margin-top: -20%!important;
+        margin-top: -14%!important;
     }
     .cards{
         height: 5.5rem;
