@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500,800&family=Alegreya:wght@500&family=Aleo:wght@300&family=Roboto:wght@100;500&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500,800&family=Alegreya:wght@500&family=Aleo:wght@300&family=Roboto:wght@100,200,300,400,500&family=Source+Code+Pro:wght@300&display=swap');
 body{
     background-image: linear-gradient( #454545, rgb(0, 0, 0));
     background-attachment: fixed;
@@ -190,7 +190,8 @@ li:hover {
     left: 5%;
     margin-right: 5%;
     font-family: 'Roboto', sans-serif;
-    /* font-weight: 400; */
+    font-weight: 400;
+    letter-spacing: -1px;
     z-index: 10;
 }
 
@@ -241,6 +242,10 @@ li:hover {
     .cards{
         height: 5rem;
         border-radius: 5%;
+    }
+    .cards-textss{
+        line-height: 1rem;
+        font-weight: 100;
     }
     .cards-image img{
         width: 3rem;
