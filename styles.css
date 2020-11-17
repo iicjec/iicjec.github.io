@@ -105,8 +105,8 @@ body{
     padding: 0!important;
 }
 
-.sidebar-lists a{
-    text-decoration: none;
+.a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none!important;
 }
 
 li{
@@ -115,6 +115,7 @@ li{
     font-family: 'Roboto', sans-serif;
     font-weight: 100!important;
     color: rgb(165, 165, 165);
+    text-decoration: none;
 }
 .close{
     width: 100%;
@@ -128,6 +129,7 @@ li{
 li:hover {
     color: white;
     text-underline-position: under;
+    text-decoration: none;
 }
 
 .social-media{
