@@ -191,6 +191,21 @@ li:hover {
     margin-right: 5%;
     font-family: 'Roboto', sans-serif;
     /* font-weight: 400; */
+    z-index: 10;
+}
+
+.cards-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.cards-image img{
+    
+    position: relative;
+
 }
 
 .card1{
@@ -227,11 +242,16 @@ li:hover {
         height: 5rem;
         border-radius: 5%;
     }
+    .cards-image img{
+        width: 3rem;
+        top: 30%;
+        left: 55%;
+    }
     .card3{
-        margin-top: 5%;
+        margin-top: 12%;
     }
     .card6{
-        margin-top: 5%;
+        margin-top: 12%;
     }
     .texts{
         margin-top: 5%;
@@ -246,6 +266,11 @@ li:hover {
     .cards{
         height: 7rem;
         border-radius: 4%;
+    }
+    .cards-image img{
+        width: 5.5rem;
+        top: 15%;
+        left: 48%;
     }
     .card3{
         margin-top: 5%;
@@ -266,6 +291,11 @@ li:hover {
     .cards{
         height: 8rem;
         border-radius: 5%;
+    }
+    .cards-image img{
+        width: 5.5rem;
+        top: 15%;
+        left: 48%;
     }
     .texts{
         margin-top: 5%;
@@ -290,6 +320,11 @@ li:hover {
     .cards{
         height: 13rem;
         border-radius: 2%;
+    }
+    .cards-image img{
+        width: 10rem;
+        top: 10%;
+        left: 40%;
     }
     .texts{
         margin-top: 5%;
