@@ -185,6 +185,11 @@ li:hover {
     font-weight: 500;
     font-size: 2rem;
 }
+.lines{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
 
 .cards{
     color: rgb(247, 238, 238);
@@ -270,6 +275,9 @@ li:hover {
         margin-bottom: 2%;
         font-size: 1rem;
     }
+    .lines{
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 425px) and (min-width: 376px) {
@@ -309,10 +317,6 @@ li:hover {
         width: 5.5rem;
         top: 15%;
         left: 48%;
-    }
-    .texts{
-        margin-top: 5%;
-        margin-bottom: 2%;
     }
 }
 
