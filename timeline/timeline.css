@@ -68,6 +68,9 @@ body{
     align-items: center;
     min-height: 300px;
 }
+.calendar{
+    display: none!important;
+}
 
 .section:nth-child(odd){
     flex-direction: row-reverse;
